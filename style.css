@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+  background-image: linear-gradient(to right bottom, #051937, #0c2257, #292876, #4f2791, #7b18a6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px 20px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+  flex-wrap: wrap; 
+}
+.col{
+  margin: auto;
+  flex-basis: auto;
+}
+.col-sm{
+  margin: auto;
+  flex-basis: 50%;
+}
+
+.h-center{
+  justify-content: center; 
+}
+.v-align{ 
+  align-items: center;
+}
+a.nav{
+  color: white;
+  text-decoration: none;
+}
+a.nav:hover{
+  color: whitesmoke;
+  text-decoration: underline;
+}
+a.nav:visited{
+  color: grey;
+}
+.nav-list{
+  list-style-type: none;
+}
+img.recipe{
+  height: 500px;
+}
+.button{
+  padding: 10px;
+  border: solid 2px;
+  border-color: #051937;
+  border-radius: 10px;
+  background-color: #0530b0;
+  color: white;
+  text-decoration: none;
+}
+.button:hover{
+  border: solid 2px;
+  border-color: #051937;
+  border-radius: 10px;
+  background-color: #07206b;
+  color: white;
+}
+.mb-15{margin-bottom: 15px;}
